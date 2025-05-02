@@ -22,3 +22,6 @@ docs/site/
 # committed for packages, but should be committed for applications that require a static
 # environment.
 Manifest.toml
+
+# Don't check this in - we'll have the students download the data
+data/glove_6B_50d.jld2 
