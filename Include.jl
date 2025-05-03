@@ -22,6 +22,8 @@ using NNlib
 using LinearAlgebra
 using Statistics
 using Random
+using PrettyTables
+using Test
 Random.seed!(1);
 
 # load my codes -
