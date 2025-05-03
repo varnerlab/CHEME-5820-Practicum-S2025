@@ -21,6 +21,8 @@ using Colors
 using NNlib
 using LinearAlgebra
 using Statistics
+using Random
+Random.seed!(1);
 
 # load my codes -
 include(joinpath(_PATH_TO_SRC, "Types.jl"));
