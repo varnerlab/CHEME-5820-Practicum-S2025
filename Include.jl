@@ -27,7 +27,6 @@ using Statistics
 using Random
 using PrettyTables
 using Test
-Random.seed!(1);
 
 # load my codes -
 include(joinpath(_PATH_TO_SRC, "Types.jl"));
