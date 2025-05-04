@@ -25,3 +25,4 @@ Manifest.toml
 
 # Don't check this in - we'll have the students download the data
 data/glove_6B_50d.jld2 
+.DS_Store
