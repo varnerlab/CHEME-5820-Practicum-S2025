@@ -5,6 +5,7 @@ const _PATH_TO_DATA = joinpath(_ROOT, "data");
 
 # flag to check if the include file was called -
 const _DID_INCLUDE_FILE_GET_CALLED = true;
+const _WORD_EMBEDDING_FILE_URL = "https://drive.google.com/file/d/1tP9W4R1Ap7vp2AAmgoVEJ5lMfQAk5Fym/view?usp=share_link";
 
 # load external packages -
 using Pkg
@@ -26,6 +27,7 @@ using LinearAlgebra
 using Statistics
 using Random
 using PrettyTables
+using Downloads
 using Test
 
 # load my codes -
